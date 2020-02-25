@@ -1,10 +1,4 @@
 {
-  "remote.extensionKind":{
-    "octref.vetur": [
-      "ui"
-    ]
-  },
-
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -19,8 +13,10 @@
   "vetur.format.defaultFormatter.js": "none",
 
   "javascript.format.enable": false,
+  
   "files.exclude": {
     ".nuxt/": true,
     "node_modules/": true
-  }
+  },
+
 }
