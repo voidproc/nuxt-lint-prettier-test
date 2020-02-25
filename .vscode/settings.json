@@ -3,6 +3,19 @@
     "source.fixAll.eslint": true
   },
 
+  "files.exclude": {
+    ".nuxt/": true,
+    "node_modules/": true
+  },
+
+  "javascript.format.enable": false,
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+
+  "stylelint.autoFixOnSave": true,
+
   "vetur.format.defaultFormatter.css": "none",
   "vetur.format.defaultFormatter.html": "none",
   "vetur.format.defaultFormatter.less": "none",
@@ -10,13 +23,5 @@
   "vetur.format.defaultFormatter.stylus": "none",
   "vetur.format.defaultFormatter.scss": "none",
   "vetur.format.defaultFormatter.ts": "none",
-  "vetur.format.defaultFormatter.js": "none",
-
-  "javascript.format.enable": false,
-  
-  "files.exclude": {
-    ".nuxt/": true,
-    "node_modules/": true
-  },
-
+  "vetur.format.defaultFormatter.js": "none"
 }

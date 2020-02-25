@@ -28,7 +28,8 @@
 	"extensions": [
 		"octref.vetur",
 		"dbaeumer.vscode-eslint",
-		"syler.sass-indented"
+		"syler.sass-indented",
+		"hex-ci.stylelint-plus"
 	]
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
