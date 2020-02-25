@@ -1,0 +1,15 @@
+version: '3'
+
+volumes:
+  pkg:
+services:
+  app:
+    container_name: nuxt_lint_prettier_test
+    build: .
+    command: bash
+    volumes:
+      - .:/app
+      - pkg:/app/node_modules
+    ports:
+      - "3000:3000"
+  

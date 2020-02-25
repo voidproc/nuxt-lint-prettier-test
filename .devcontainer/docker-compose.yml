@@ -1,0 +1,13 @@
+version: '3'
+
+volumes:
+  pkg:
+services:
+  app:
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+      - pkg:/app/node_modules
+    command: /bin/sh -c "while sleep 1000; do :; done"
+

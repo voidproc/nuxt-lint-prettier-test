@@ -1,0 +1,26 @@
+{
+  "remote.extensionKind":{
+    "octref.vetur": [
+      "ui"
+    ]
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.less": "none",
+  "vetur.format.defaultFormatter.postcss": "none",
+  "vetur.format.defaultFormatter.stylus": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  "vetur.format.defaultFormatter.js": "none",
+
+  "javascript.format.enable": false,
+  "files.exclude": {
+    ".nuxt/": true,
+    "node_modules/": true
+  }
+}
